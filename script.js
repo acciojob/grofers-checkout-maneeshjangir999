@@ -1,10 +1,11 @@
 const getSumBtn = document.createElement("button");
 getSumBtn.append("Get Total Price");
 document.body.appendChild(getSumBtn);
-let tabRow = document.createElement("tr");
-let tabDsc = document.createElement("td");
+let tabRow = document.createElement("div");
+tabRow.id ="ans";
+let tabDsc = document.createElement("span");
 tabDsc.innerText = "Total Price";
-let tabSum = document.createElement("td");
+let tabSum = document.createElement("span");
 tabRow.appendChild(tabDsc);
 tabRow.appendChild(tabSum);
 document.body.appendChild(tabRow);
