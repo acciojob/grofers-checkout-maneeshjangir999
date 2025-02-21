@@ -20,6 +20,7 @@ const getSum = () => {
   tabSum.innerText = sum;
 };
 
-tabDsc.classList.add("firstTd")
+tabDsc.classList.add("item")
+tabSum.classList.add("prices")
 
 getSumBtn.addEventListener("click", getSum);
